@@ -17,8 +17,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableConfigServer
 //注册服务
 @EnableEurekaClient
-//配置中心-bus-refresh
-@RefreshScope
 public class App {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(App.class, args);
