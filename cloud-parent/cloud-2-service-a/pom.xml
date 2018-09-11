@@ -15,10 +15,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- <dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency> -->
+		<!-- eureka客户端 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -27,10 +24,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!-- <dependency>
+		<!-- 服务链路追踪 -->
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-		</dependency> -->
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

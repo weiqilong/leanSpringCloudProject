@@ -14,9 +14,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- 服务注册与发现 -->
-		<!-- <dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId> 
-			</dependency> -->
+		<!-- eureka客户端 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -45,7 +43,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-turbine</artifactId>
 		</dependency>
-
+		<!-- zipkin服务链路追踪 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
