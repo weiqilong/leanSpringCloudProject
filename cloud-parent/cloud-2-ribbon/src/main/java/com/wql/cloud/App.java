@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * ribbon
+ * ribbon 8764
  * @author weiqilong
  * 创建时间:2018年8月1日 上午11:28:29
  */

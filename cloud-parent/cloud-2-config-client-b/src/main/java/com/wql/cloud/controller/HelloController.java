@@ -23,4 +23,6 @@ public class HelloController {
 	public String hi() {
 		return "client propertey value1="+name+",value2="+name2;
 	}
+	
+	
 }

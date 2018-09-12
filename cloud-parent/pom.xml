@@ -62,5 +62,6 @@
 		<module>cloud-2-config-client</module>
 		<module>cloud-2-eureka-config-server</module>
 		<module>cloud-2-config-client-b</module>
+		<module>cloud-2-server-b</module>
 	</modules>
 </project>
