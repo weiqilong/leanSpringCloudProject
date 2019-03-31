@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/hello")
+//要在用到配置文件的类加@RefreshScope这个注解，然后bus-refresh才会刷新成功
 @RefreshScope
 public class HelloController {
 	
