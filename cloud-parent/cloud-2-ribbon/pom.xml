@@ -28,22 +28,22 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 		</dependency>
-		<!-- 1-断路由 -->
+		<!-- 熔断器监控 1-断路由 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 		</dependency>
-		<!-- 2-断路由仪表板 -->
+		<!-- 熔断器监控 2-断路由仪表板 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
 		</dependency>
-		<!-- 3-健康监控 -->
+		<!-- 熔断器监控 3-健康监控 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<!-- 4-聚合监控 -->
+		<!-- 熔断器监控 4-聚合监控 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-turbine</artifactId>

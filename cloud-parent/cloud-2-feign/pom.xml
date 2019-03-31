@@ -31,22 +31,22 @@
 			<artifactId>spring-cloud-starter-feign</artifactId>
 			<version>1.4.5.RELEASE</version>
 		</dependency>
-		<!-- 1-hystrix熔断器 -->
+		<!-- 熔断器监控 1-hystrix熔断器 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 		</dependency>
-		<!-- 2-断路由仪表板 -->
+		<!-- 熔断器监控 2-断路由仪表板 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
 		</dependency>
-		<!-- 3-健康监控 -->
+		<!-- 熔断器监控 3-健康监控 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<!-- 4-聚合监控 -->
+		<!-- 熔断器监控 4-聚合监控 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-turbine</artifactId>
