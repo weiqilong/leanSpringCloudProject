@@ -12,12 +12,14 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * ribbon 8764
+ * 监控地址stream地址:http://127.0.0.1:8764/actuator/hystrix.stream
+ * 仪表盘地址:http://127.0.0.1:8764/hystrix，然后把stream地址写进去就可以了，title随便写
  * @author weiqilong
  * 创建时间:2018年8月1日 上午11:28:29
  */
 @SpringBootApplication
 @EnableEurekaClient
-//启用熔断
+////使用熔断器监控，下面三个注解都要启动
 @EnableHystrix
 @EnableHystrixDashboard
 @EnableTurbine

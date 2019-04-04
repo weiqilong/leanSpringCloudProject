@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * 注册中心 8770
+ * 访问地址 http://127.0.0.1:8770/
  * @author weiqilong
  * CREATE TIME 2018年9月11日 下午4:10:09
  */
