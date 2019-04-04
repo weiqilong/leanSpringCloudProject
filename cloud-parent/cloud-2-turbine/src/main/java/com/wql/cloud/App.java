@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
 /**
  * turbin 8773
+ * 聚合监控工程：那个服务有熔断功能，就把哪个工程加入到聚合监控就可以了
  * 聚合监控地址stream地址:http://127.0.0.1:8773/turbine.stream
  * 仪表盘地址:http://127.0.0.1:8773/hystrix，然后把stream地址写进去就可以了，title随便写
  * @author weiqilong
