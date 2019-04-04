@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.wql.cloud.service.HelloService;
 
 @RestController
-@RequestMapping("/hello")
+@RequestMapping("/hello1")
 public class HelloController {
 	@Autowired
 	private HelloService helloService;
 	
-	@RequestMapping("/hi")
+	@RequestMapping("/hi1")
 	public String hi(){
-		String hi = helloService.hi();
+		String hi = helloService.feignhi();
 		return "feign-"+hi;
 	}
 }

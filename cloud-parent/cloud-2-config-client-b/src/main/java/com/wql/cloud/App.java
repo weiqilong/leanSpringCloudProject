@@ -6,7 +6,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * 8770
+ * 8771
  * 访问配置中心的配置文件
  * @author weiqilong
  * CREATE TIME 2018年8月10日 上午10:23:51

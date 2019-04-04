@@ -15,14 +15,14 @@ public class HelloService {
 	
 	private static Log logger = LogFactory.getLog(HelloService.class);
 	
-	@HystrixCommand(fallbackMethod="hiError")
-	public String hi(){
+	@HystrixCommand(fallbackMethod="ribbonhiError")
+	public String ribbonhi(){
 		String url = "http://service/hello/hi";
 		String forObject = restTemplate.getForObject(url, String.class);
 		return forObject;
 	}
 	
-	public String hiError(){
+	public String ribbonhiError(){
 		logger.info("-ribbon error go hystrix");
 		return "-ribbon error go hystrix";
 	}

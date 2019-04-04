@@ -8,7 +8,7 @@ import com.wql.cloud.service.HelloService;
 public class HelloServiceImplHystrix implements HelloService{
 
 	@Override
-	public String hi() {
+	public String feignhi() {
 		return "feign catch error";
 	}
 

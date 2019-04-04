@@ -24,5 +24,5 @@ public interface HelloService {
 	 * @return
 	 */
 	@RequestMapping("/hi")
-	public String hi();
+	public String feignhi();
 }

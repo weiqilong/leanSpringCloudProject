@@ -8,14 +8,14 @@ import com.wql.cloud.pojo.Student;
 import com.wql.cloud.service.HelloService;
 
 @RestController
-@RequestMapping("/hello")
+@RequestMapping("/hello2")
 public class HelloController {
 	@Autowired
 	private HelloService helloService;
 	
-	@RequestMapping("/hi")
+	@RequestMapping("/hi2")
 	public String hi(){
-		String hi = helloService.hi();
+		String hi = helloService.ribbonhi();
 		return "ribbon "+hi;
 	}
 	
