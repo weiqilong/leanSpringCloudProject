@@ -30,10 +30,12 @@
 ## cloud-2-server-b
 ```
 高可用注册中心，高可用注册中心的意思就是集群版注册中心，如何配置eureka注册中心
+此工程其实只有一个，因为要在本机测试集群，所有拆分出了两个模拟集群(cloud-2-server,cloud-2-server-b)
 ```
 ## cloud-2-server
 ```
 高可用注册中心，高可用注册中心的意思就是集群版注册中心，如何配置eureka注册中心
+此工程其实只有一个，因为要在本机测试集群，所有拆分出了两个模拟集群(cloud-2-server,cloud-2-server-b)
 ```
 ## cloud-2-service-a
 ```
